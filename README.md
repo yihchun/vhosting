@@ -1,9 +1,10 @@
 
 This is a collection of scripts that I use for virtual hosting from a low-end
-Virtual Private Server. It creates scripts that (potentially) isolate different
-domains with different userids through fpm. (To be fair, this part of the
-functionality is not thoroughly tested). It also uses Let's Encrypt to generate
-certs, through some changes to https://github.com/diafygi/letsencrypt-nosudo
+Virtual Private Server. It creates scripts to isolate different domains with 
+different userids through fpm. (This part is commented out since I'm not 
+currently using it, and the functionality is not thoroughly tested). It also 
+uses Let's Encrypt to generate certs, through some changes to 
+    https://github.com/diafygi/letsencrypt-nosudo
 
 I'm regularly using the Apache generator, but the nginx generator was in use
 for quite some time. Either of these scripts probably require quite a bit of
