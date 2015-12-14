@@ -1,0 +1,21 @@
+# cowiki is statically created and does not get generated this way.
+# www-data default MUST go first so that www-data can get port 9000;
+# cowiki requires it.
+www-data	lost	DEFAULT		whodat.mooo.com
+www-data	mail	mail.yihchun.com
+www-data	default	primary.yihchun.com secondary.yihchun.com
+www-data	wv1	wv1.net *.wv1.net
+www-data	jerry	consulting.issuck.com
+www-data	issuck	issuck.com *.issuck.com
+www-data	default	www.matrii.com *.matrii.com matrii.com
+www-data	hufamily	hufamily.org *.hufamily.org
+#www-data	team	team.matrii.com
+www-data	iccf-wiki	wiki.iccfer.com
+www-data	ewiki	wiki.evelynhuang.com
+www-data	evelyn	evelynhuang.com *.evelynhuang.com
+www-data	ccccnew	new.champaignccc.org
+ccccnew	ccccwp	wp.champaignccc.org
+cccc	cccc	champaignccc.org *.champaignccc.org
+iccf	iccf	iccfer.com *.iccfer.com
+www-data	finance	finance.yihchun.com	redirssl
+www-data	default	yihchun.com *.yihchun.com 

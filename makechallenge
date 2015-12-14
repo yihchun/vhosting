@@ -1,0 +1,5 @@
+foreach i (*)
+  mkdir -p $i/.well-known/acme-challenge
+  chown yihchun.www-data $i/.well-known/acme-challenge
+  chmod 750 $i/.well-known/acme-challenge
+end
